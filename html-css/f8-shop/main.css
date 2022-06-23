@@ -1,0 +1,16 @@
+:root {
+    --text-color: green;
+}
+#first-heading {
+    color: var(--text-color);
+    font-size: 60px;
+}
+.first-heading{
+    --my-color: blue;
+    color: var(--my-color);
+}
+.box{
+    width: 50%;
+    height: 100px;
+    background-color: var(--text-color);
+}
